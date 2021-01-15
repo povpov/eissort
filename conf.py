@@ -1,7 +1,6 @@
 import requests
 from io import StringIO
 from lxml import etree
-
 from config import url, login, password
 
 title, anchors, links = "", "", ""

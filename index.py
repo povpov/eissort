@@ -1,7 +1,7 @@
 import os
 import zipfile
 
-BASE_DIR = ""
+BASE_DIR = "E:\работа\ЭТП\ЕИС\Извещения"
 TYPE_FOR_SAVE = [
     'epClarificationDoc',
     'fcsNotificationEA44',
@@ -24,6 +24,33 @@ TYPE_FOR_SAVE = [
     'fcs_notificationEFDateChange',
     'fcsNotificationOrgChange',
     'fcsNotificationOKD504',
+    'fcsProtocolCancel',
+    'fcsProtocolEF1',
+    'fcsProtocolEF2',
+    'fcsProtocolEF3',
+    'fcsProtocolEFInvalidation',
+    'fcsProtocolEFSingleApp',
+    'fcsProtocolEFSinglePart',
+    'fcsProtocolEOK1',
+    'fcsProtocolEOK2',
+    'fcsProtocolEOK3',
+    'fcsProtocolEOKSinglePart',
+    'fcsProtocolDeviation',
+    'fcsProtocolEvasion',
+    'fcsProtocolEOKOU1',
+    'fcsProtocolEOKOU2',
+    'fcsProtocolEOKOU3',
+    'fcsProtocolEOKOUSingleApp',
+    'fcsProtocolEZK1',
+    'fcsProtocolEZK2',
+    'fcsProtocolIP615',
+    'fcsProtocolPP615',
+    'fcsProtocolPR615',
+    'fcsProtocolIPA615',
+    'fcsProtocolPRE',
+    'fcsProtocolPZP',
+    'fcsProtocolVPP',
+    'fcsProtocolIZP',
 ]
 TYPE_FOR_DELETE = [
     'fcsNotificationINM111',
